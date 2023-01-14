@@ -12,14 +12,16 @@
     "ci:update": "npx ember-ci-update",
     "build": "pnpm run --filter ember-resources build",
     "build:docs": "pnpm run --filter docs docs:collect",
-    "lint": "pnpm run --filter '*' lint:js --fix"
+    "lint": "pnpm run --filter '*' lint:js --fix",
+    "format": "pnpm run --filter '*' format",
+    "format:check": "pnpm run --filter '*' format:check"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.7",
     "@changesets/cli": "^2.25.2",
-    "@nullvoxpopuli/eslint-configs": "^3.0.0",
+    "@nullvoxpopuli/eslint-configs": "^3.0.2",
     "concurrently": "^7.2.1",
-    "eslint": "^7.32.0",
+    "eslint": "^8.0.0",
     "loader.js": "^4.7.0",
     "prettier": "^2.7.1",
     "typescript": "^4.7.3"
@@ -32,12 +34,10 @@
   "packageManager": "pnpm@7.25.1",
   "pnpm": {
     "overrides": {
-      "@types/eslint": "7.29.0",
       "mustache": "^4.2.0"
     },
     "overrides-notes": {
       "@embroider/addon-shim": "some addons from the test-app are not using ^1.0.0",
-      "@types/eslint": "webpack brings in @types/eslint@8, which breaks our type checking",
       "mustache": "ember-cli -> testem -> consolidate -> mustache is ancient"
     },
     "peerDependencyRules": {

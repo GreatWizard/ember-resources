@@ -4,4 +4,3 @@ environment:
 include:
   - 'app/**'
   - 'tests/**/*'
-

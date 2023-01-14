@@ -9,6 +9,25 @@ module.exports = {
   overrides: [
     ...config.overrides,
     {
+      files: ['*.cjs'],
+              rules: {
+'n/no-unsupported-features/es-syntax': [
+  'error',
+  {
+
+                    version: '16.0.0',
+  }
+],
+                'n/no-unsupported-features': [
+                  'error',
+                  {
+                    version: '16.0.0',
+                    ignores: [],
+                  },
+                ],
+              },
+    },
+    {
       files: ['**/*.ts'],
       rules: {
         /**
