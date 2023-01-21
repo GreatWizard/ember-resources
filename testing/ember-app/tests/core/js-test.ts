@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-empty-function */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { tracked } from '@glimmer/tracking';
 import { destroy, isDestroyed, registerDestructor } from '@ember/destroyable';

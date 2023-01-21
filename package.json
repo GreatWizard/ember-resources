@@ -12,6 +12,7 @@
     "ci:update": "npx ember-ci-update",
     "build": "pnpm run --filter ember-resources build",
     "build:docs": "pnpm run --filter docs docs:collect",
+    "fix": "pnpm lint && pnpm format",
     "lint": "pnpm run --filter '*' lint:js --fix",
     "format": "pnpm run --filter '*' format",
     "format:check": "pnpm run --filter '*' format:check"

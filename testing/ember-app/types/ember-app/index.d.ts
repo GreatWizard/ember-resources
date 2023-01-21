@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-types */
 // import type Ember from 'ember';
 
 import '@glint/environment-ember-loose';

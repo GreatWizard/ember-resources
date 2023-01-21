@@ -38,7 +38,6 @@ class ResourceInvokerManager {
       return invokeHelper(cache, resource);
     });
 
-
     return { fn, args, cache, _: getValue(cache) };
   }
 

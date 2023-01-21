@@ -3923,7 +3923,7 @@ packages:
   /@types/ember-resolver/5.0.11:
     resolution: {integrity: sha512-2BL9d8kBdNUO9Je6KBF7Q34BSwbQG6vzCzTeSopt8FAmLDfaDU9xDDdyZobpfy9GR36mCSeG9b9wr4bgYh/MYw==}
     dependencies:
-      '@types/ember__object': 4.0.5
+      '@types/ember__object': 4.0.5_@babel+core@7.20.12
     dev: true
 
   /@types/ember-resolver/5.0.11_@babel+core@7.20.12:
@@ -3941,7 +3941,7 @@ packages:
       '@types/ember__application': 4.0.0_@babel+core@7.20.12
       '@types/ember__array': 4.0.1_@babel+core@7.20.12
       '@types/ember__component': 4.0.8_@babel+core@7.20.12
-      '@types/ember__controller': 4.0.0
+      '@types/ember__controller': 4.0.0_@babel+core@7.20.12
       '@types/ember__debug': 4.0.1_@babel+core@7.20.12
       '@types/ember__engine': 4.0.0
       '@types/ember__error': 4.0.0
@@ -4026,7 +4026,7 @@ packages:
     resolution: {integrity: sha512-qHjCGo1p9I4VJR3qfil7h0jJWTy52uNJw87MNwNEi1SYk+EaVJaqyyyoZHJmZGdn8hw3JjXvyFt/zeFZpbK/6A==}
     dependencies:
       '@types/ember': 4.0.0_@babel+core@7.20.12
-      '@types/ember__object': 4.0.5
+      '@types/ember__object': 4.0.5_@babel+core@7.20.12
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
@@ -10020,7 +10020,7 @@ packages:
       eslint-import-resolver-webpack:
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 5.48.1_p4cjf2r47dnfiqufepc5hp43sq
+      '@typescript-eslint/parser': 5.48.1_wogtpudmlxya2leoxia5qf2rl4
       debug: 3.2.7
       eslint-import-resolver-node: 0.3.6
       eslint-import-resolver-typescript: 3.5.3_ol7jqilc3wemtdbq3nzhywgxq4
@@ -10152,7 +10152,7 @@ packages:
       '@typescript-eslint/parser':
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 5.48.1_p4cjf2r47dnfiqufepc5hp43sq
+      '@typescript-eslint/parser': 5.48.1_wogtpudmlxya2leoxia5qf2rl4
       array-includes: 3.1.5
       array.prototype.flat: 1.3.0
       debug: 2.6.9
